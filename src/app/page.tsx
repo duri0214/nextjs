@@ -1,13 +1,68 @@
 import React from 'react'
+import { Box, Button, Grid, Link, Typography } from '@mui/material'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 export default function Page() {
   return (
-    <div>
-      <p>保護されていないページ</p>
-      <p>This is Home</p>
-      <p>
-        <a href={'/admin/user-list'}>ユーザー管理ページにとぶ</a>
-      </p>
-    </div>
+    <Box display='flex' flexDirection='column'>
+      {/* 青い領域（ヘッダ） */}
+      <Grid item xs={12}>
+        <Box height={200} width='100%' bgcolor='primary.main'>
+          <Typography sx={{ color: 'white' }}>保護されていないページ</Typography>
+          <Typography variant='h5' sx={{ color: 'white', marginBottom: 2 }}>
+            This is Header
+          </Typography>
+        </Box>
+      </Grid>
+
+      {/* ライトグレーの領域（コンテンツ領域） */}
+      <Box display='flex' flexDirection='row'>
+        <Box
+          width={400}
+          height={500}
+          bgcolor='#f0f0f0'
+          display='flex'
+          flexDirection='column'
+          padding='30px'
+          justifyContent='center'
+        >
+          <Box display='flex' flexDirection='column'>
+            <ul>
+              <li>
+                <Typography>
+                  <a href={'/admin/user-list'}>ユーザー管理ページにとぶ</a>
+                </Typography>
+              </li>
+            </ul>
+
+            <Typography variant='h5' sx={{ color: 'text.primary', marginBottom: 2 }}>
+              <strong>Welcome to Acme.</strong> This is the example for the{' '}
+              <Link href='https://nextjs.org/learn' color='primary'>
+                Next.js Learn Course
+              </Link>
+              , brought to you by Vercel.
+            </Typography>
+            <Link href='/admin/signin' underline='none'>
+              <Button
+                variant='contained'
+                color='primary'
+                sx={{ width: '200px', borderRedius: 2, textTransform: 'none' }}
+              >
+                Log in
+                <ArrowRightIcon
+                  className='text-white'
+                  style={{ width: '1rem', height: '1rem', paddingLeft: '10px' }}
+                />
+              </Button>
+            </Link>
+          </Box>
+        </Box>
+
+        {/* ホワイトの領域 */}
+        <Box display='flex' alignItems='center' justifyContent='center'>
+          {/*  ヒーローイメージを追加*/}
+        </Box>
+      </Box>
+    </Box>
   )
 }
