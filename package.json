@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "seed":  "ts-node --project tsconfig.seeds.json -r tsconfig-paths/register ./prisma/seeds/seeder.ts"
+    "seed": "ts-node --project tsconfig.seeds.json -r tsconfig-paths/register ./prisma/seeds/seeder.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
