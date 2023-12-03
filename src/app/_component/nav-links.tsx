@@ -1,5 +1,6 @@
 import { DocumentDuplicateIcon, HomeIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 import { Box, Link, Typography } from '@mui/material'
+import React from 'react'
 
 // いったん固定値で書くけど本来はdbから引っ張ってきてね
 const links = [
