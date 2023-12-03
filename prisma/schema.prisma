@@ -24,3 +24,32 @@ model Users {
 
   @@map("users")
 }
+
+model Revenue {
+  id      Int    @id @default(autoincrement())
+  month   String
+  revenue Int
+
+  @@map("revenue")
+}
+
+model Customer {
+  id       Int       @id @default(autoincrement())
+  invoices Invoice[]
+  name     String
+  email    String
+  imageUrl String    @map("image_url")
+
+  @@map("customer")
+}
+
+model Invoice {
+  id         Int      @id @default(autoincrement())
+  customer   Customer @relation(fields: [customerId], references: [id])
+  customerId Int      @map("customer_id")
+  amount     Int
+  date       String
+  status     String   @default("pending")
+
+  @@map("invoice")
+}
