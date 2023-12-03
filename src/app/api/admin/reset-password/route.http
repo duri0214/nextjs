@@ -1,0 +1,28 @@
+### 200 OK
+PUT http://localhost:3000/api/admin/reset-password
+Content-Type: application/json
+Authorization: Bearer 80c64af7869dffb6bc967b76d1b95b8b1e88683fdeb8082edaca7a6184b14281
+
+{
+"password": "abc",
+"passwordConfirm": "abc"
+}
+
+### 400 Bad Request: "Token has expired." or "The password and password confirmation do not match. Please try again."
+PUT http://localhost:3000/api/admin/reset-password
+Content-Type: application/json
+Authorization: Bearer 80c64af7869dffb6bc967b76d1b95b8b1e88683fdeb8082edaca7a6184b14281
+
+{
+"password": "a",
+"passwordConfirm": "b"
+}
+
+### 400 Bad Request: Invalid or missing Bearer token.
+PUT http://localhost:3000/api/admin/reset-password
+Content-Type: application/json
+
+{
+"password": "a",
+"passwordConfirm": "a"
+}

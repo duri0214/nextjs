@@ -1,0 +1,4 @@
+POST http://localhost:3000/api/admin/forgot-password
+Content-Type: application/json
+
+{"to":  "test@example.com"}
