@@ -1,5 +1,5 @@
 'use client'
-import { DocumentDuplicateIcon, HomeIcon, UserGroupIcon } from '@heroicons/react/24/outline'
+import { PresentationChartBarIcon, HomeIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 import { Box, Link, Typography } from '@mui/material'
 import { usePathname } from 'next/navigation'
 import React from 'react'
@@ -7,8 +7,8 @@ import React from 'react'
 // いったん固定値で書くけど本来はdbから引っ張ってきてね
 const links = [
   { name: 'Home', href: '/', icon: HomeIcon },
-  { name: 'Invoices', href: '/invoices', icon: DocumentDuplicateIcon },
-  { name: 'Customers', href: '/customers', icon: UserGroupIcon },
+  { name: 'Dashboard', href: '/dashboard', icon: PresentationChartBarIcon },
+  { name: 'Users', href: '/user-list', icon: UserGroupIcon },
 ]
 
 export default function NavLinks() {

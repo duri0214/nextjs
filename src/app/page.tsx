@@ -30,14 +30,6 @@ export default function Page() {
           justifyContent='center'
         >
           <Box display='flex' flexDirection='column'>
-            <ul>
-              <li>
-                <Typography>
-                  <a href={'/admin/user-list'}>ユーザー管理ページにとぶ</a>
-                </Typography>
-              </li>
-            </ul>
-
             <Typography
               className={`${lusitana.className}`}
               variant='h5'
