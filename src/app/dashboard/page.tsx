@@ -3,6 +3,7 @@ import { Box, Typography } from '@mui/material'
 import { InvoiceDataTable } from './_component/InvoiceDataTable'
 import { RevenueDataTable } from './_component/RevenueDataTable'
 import { Card } from '@/app/dashboard/_component/Card'
+import { Search } from '@/app/dashboard/_component/Search'
 
 export default async function Page() {
   const response = await fetch('http://localhost:3000/api/dashboard')
@@ -18,6 +19,9 @@ export default async function Page() {
   return (
     <Box display='flex' flexDirection='column'>
       <Typography variant='h4'>Dashboard</Typography>
+
+      {/* 検索バー */}
+      <Search placeholder='Search invoices...' />
 
       {/* カード */}
       <Box display='flex' flexDirection='row'>
