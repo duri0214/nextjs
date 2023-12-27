@@ -5,7 +5,7 @@ import { Box, Typography } from '@mui/material'
 import { DataGrid, GridColDef, GridRowsProp } from '@mui/x-data-grid'
 import { Revenue } from '@/types/types'
 
-export default function RevenueDataTable({ revenue }: { revenue: Revenue[] }) {
+export function RevenueDataTable({ revenue }: { revenue: Revenue[] }) {
   if (!revenue || revenue.length === 0) {
     return <Typography variant='h5'>No data available.</Typography>
   }

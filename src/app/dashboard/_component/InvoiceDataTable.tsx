@@ -5,7 +5,7 @@ import { Box, Link, Typography } from '@mui/material'
 import { DataGrid, GridColDef, GridRenderCellParams, GridRowsProp } from '@mui/x-data-grid'
 import { Invoice } from '@/types/types'
 
-export default function InvoiceDataTable({ invoice }: { invoice: Invoice[] }) {
+export function InvoiceDataTable({ invoice }: { invoice: Invoice[] }) {
   if (!invoice || invoice.length === 0) {
     return <Typography variant='h5'>No data available.</Typography>
   }

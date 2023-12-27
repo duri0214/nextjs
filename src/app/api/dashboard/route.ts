@@ -5,7 +5,7 @@ import { serverError } from '@/util/apiHandler'
 export async function GET(req: NextRequest) {
   const prisma = new PrismaClient()
   try {
-    const invoice = await prisma.invoice.findMany({
+    const invoice = prisma.invoice.findMany({
       select: {
         amount: true,
         customer: {
@@ -22,8 +22,32 @@ export async function GET(req: NextRequest) {
       },
       take: 5,
     })
-    const revenue = await prisma.revenue.findMany()
-    return NextResponse.json({ invoice, revenue })
+    const revenue = prisma.revenue.findMany()
+    const invoiceCountPromise = prisma.invoice.count()
+    const customerCountPromise = prisma.customer.count()
+    const invoicePaidPromise = prisma.invoice.aggregate({
+      _sum: { amount: true },
+      where: { status: 'paid' },
+    })
+    const invoicePendingPromise = prisma.invoice.aggregate({
+      _sum: { amount: true },
+      where: { status: 'pending' },
+    })
+    const data = await Promise.all([
+      invoiceCountPromise,
+      customerCountPromise,
+      invoicePaidPromise,
+      invoicePendingPromise,
+    ])
+
+    return NextResponse.json({
+      invoice,
+      revenue,
+      numberOfInvoices: data[0],
+      numberOfCustomers: data[1],
+      totalPaidInvoices: data[2]._sum.amount,
+      totalPendingInvoices: data[3]._sum.amount,
+    })
   } catch (error) {
     return serverError(error)
   } finally {
