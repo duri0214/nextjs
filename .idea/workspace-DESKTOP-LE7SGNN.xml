@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dacab37-3284-4a79-80db-9c641c767be6" name="Changes" comment="nav-linksと app/page の修正" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;duri0214&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5bce5bbb-7c87-4e7d-8fe9-5eca62f1c58d" />
+        <option name="url" value="git@github.com:duri0214/nextjs.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Z14DR1u4val0eTs7K3DPSQ8lRy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/yoshi/OneDrive/dev/nextjs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\OneDrive\\dev\\nextjs\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.general",
+    "ts.external.directory.path": "D:\\OneDrive\\dev\\nextjs\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\dev\nextjs\src\app\invoices" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\dev\nextjs\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.seed">
+    <configuration name="route | 400 Bad Request: Invalid or missing Bearer token." type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/app/api/admin/reset-password/route.http" index="3" requestIdentifier="400 Bad Request: Invalid or missing Bearer token." runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="route | 400 Bad Request: &quot;Token has expired.&quot; or &quot;The password and password confirmation do not match. Please try again.&quot;" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/app/api/admin/reset-password/route.http" index="2" requestIdentifier="400 Bad Request: &quot;Token has expired.&quot; or &quot;The password and password confirmation do not match. Please try again.&quot;" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="route | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/app/api/dashboard/route.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="format" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="seed" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="seed" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.seed" />
+        <item itemvalue="npm.format" />
+        <item itemvalue="HTTP Request.route | #1" />
+        <item itemvalue="HTTP Request.route | 400 Bad Request: Invalid or missing Bearer token." />
+        <item itemvalue="HTTP Request.route | 400 Bad Request: &quot;Token has expired.&quot; or &quot;The password and password confirmation do not match. Please try again.&quot;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dacab37-3284-4a79-80db-9c641c767be6" name="Changes" comment="" />
+      <created>1701576132777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701576132777</updated>
+      <workItem from="1701576133788" duration="323000" />
+      <workItem from="1701576473033" duration="13983000" />
+      <workItem from="1701592760971" duration="4416000" />
+      <workItem from="1701597370222" duration="8935000" />
+      <workItem from="1701697058018" duration="3703000" />
+      <workItem from="1701946823012" duration="1221000" />
+    </task>
+    <task id="LOCAL-00001" summary="つぎ、ログイン機能とその先のコンポーネントへ">
+      <option name="closed" value="true" />
+      <created>1701579903099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701579903099</updated>
+    </task>
+    <task id="LOCAL-00002" summary="OK!!">
+      <option name="closed" value="true" />
+      <created>1701582378049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701582378049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1701589382334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701589382334</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1701589533510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701589533510</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Chapter 2 CSS Styling">
+      <option name="closed" value="true" />
+      <created>1701590478576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701590478576</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chapter 3 Optimizing Fonts and Images">
+      <option name="closed" value="true" />
+      <created>1701594340975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701594340975</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chapter 4 Creating Layouts and Pages">
+      <option name="closed" value="true" />
+      <created>1701597680613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701597680613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="割り切りのため削除">
+      <option name="closed" value="true" />
+      <created>1701597753753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701597753753</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1701597917071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701597917071</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Chapter 5 Navigating Between Pages">
+      <option name="closed" value="true" />
+      <created>1701598180607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701598180607</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chapter 7 Fetching Data">
+      <option name="closed" value="true" />
+      <created>1701614531578</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701614531578</updated>
+    </task>
+    <task id="LOCAL-00012" summary="nav-linksと app/page の修正">
+      <option name="closed" value="true" />
+      <created>1701700385902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701700385928</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="つぎ、ログイン機能とその先のコンポーネントへ" />
+    <MESSAGE value="OK!!" />
+    <MESSAGE value="Chapter 2 CSS Styling" />
+    <MESSAGE value="Chapter 3 Optimizing Fonts and Images" />
+    <MESSAGE value="Chapter 4 Creating Layouts and Pages" />
+    <MESSAGE value="割り切りのため削除" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Chapter 5 Navigating Between Pages" />
+    <MESSAGE value="Chapter 7 Fetching Data" />
+    <MESSAGE value="nav-linksと app/page の修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav-linksと app/page の修正" />
+  </component>
+</project>
